@@ -6,7 +6,7 @@ ten-work allows users to share files through LAN on same subnet via centralized 
 - [ ] Create chat system
 - [ ] Share files among multiple computers using central server as relay
 - [ ] Create GUI for application
-- [ ] Create decentralized network to allow P2P data tranfer
+- [ ] Create decentralized network to allow P2P data transfer
 
 # Contributors
 - [Chirag Thakur](https://github.com/chirag11032000)

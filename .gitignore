@@ -1,3 +1,4 @@
 venv/
-server_test_data/"Episode 1.mkv"
-client_test_data/"Episode 1.mkv"
+__pycache__/
+tests/server_test_data/ep_1.mkv
+tests/client_test_data/ep_1.mkv

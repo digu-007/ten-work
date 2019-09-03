@@ -10,9 +10,9 @@ def get_server_socket():
 	
 	
 def get_client_socket():
-    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client.connect((HOST, PORT))
-    return client
+	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	client.connect((HOST, PORT))
+	return client
     
 
 def get_header(p_no, data_sz):

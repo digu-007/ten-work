@@ -27,10 +27,10 @@ def get_header(p_no, data_sz):
 def send_message(conn, p_no, data):
 	header = get_header(p_no, len(data))
 	message = header + data
-	print(f"Header: {header}\n Data: {data}")
+	# ~ print(f"Header: {header}    |    Data: {data}")
 	message = message.encode()
-	print(f"Message: {message}")
-	conn.send(message)
+	# ~ print(f"Message: {message}")
+	conn.sendall(message)
 	
 
 def receive_header(conn):
